@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            function Jankowski()
+                {
+                window.close()
+                }
+        </script>
+    </head>
+    <body>
+        HTML:<br>
+        <textarea rows="29" cols="100" style="overflow:hidden" readonly>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>proste obliczenia</title>
+        <meta charset="utf-8">
+        <script>
+            function okno_zamknij_Jankowski()
+                {
+                window.close()
+                }
+        </script>
+    </head>
+    <body>
+        <div style="color:red;font-size:50px">
+        <script language="JavaScript">
+            var liczba1 = prompt("podaj A=","");
+            var a_JANK = parseFloat(liczba1);
+            var liczba2 = prompt("podaj B=","");
+            var b_JANK = parseFloat(liczba2);
+            var wynik = (a_JANK*a_JANK*a_JANK)+(3*(a_JANK*a_JANK)*b_JANK)+(3*a_JANK*(b_JANK*b_JANK))+(b_JANK*b_JANK*b_JANK);
+            document.write("A="+a_JANK+"<br>");
+            document.write("B="+b_JANK+"<br>");
+            document.write("("+a_JANK+"+"+b_JANK+")<sup>3</sup>="+a_JANK+"<sup>3</sup>+"+"3*"+a_JANK+"<sup>2</sup>*"+b_JANK+"+"+"3*"+a_JANK+"*"+b_JANK+"<sup>2</sup>"+"+"+b_JANK+"<sup>3</sup>="+wynik);
+        </script>
+        </div>
+        <br><br>
+        <input type="button" value="zamknij okno" onclick="okno_zamknij_Jankowski()">
+    </body>
+</html>
