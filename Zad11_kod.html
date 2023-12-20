@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            function okno_zamknij_Jankowski()
+                {
+                window.close()
+                }
+        </script>
+    </head>
+    <body>
+        HTML:<br>
+        <textarea rows="27" cols="100" style="overflow:hidden" readonly>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            function okno_zamknij_Jankowski()
+                {
+                window.close()
+                }
+        </script>
+    </head>
+    <body>
+        <font style="color: green; font-size: 31px;">
+            <script>
+                var D1_Jank = parseInt(prompt("Podaj pierwszy dzień: "));
+                var D2_Jank = parseInt(prompt("Podaj drugi dzień: "));
+                if (D1_Jank < 1 || D1_Jank > 31 || D2_Jank> D1_Jank || D2_Jank > 31) {
+                    alert("Podane dni są niepoprawne.");
+                }else{
+                    var roznica = Math.abs((D2_Jank - D1_Jank) * 86400);
+                }
+                document.write("Różnica między tymi dniami wynosi: ", roznica, " sekund");
+            </script>
+        </font>
+        <input type="button" value="zamknij okno" onclick="okno_zamknij_Jankowski()"/>
+    </body>
+</html>
+        </textarea>
+        <br><br>
+        <input type="button" value="zamknij okno" onclick="okno_zamknij_Jankowski)"/>
+    </body>
+</html>
